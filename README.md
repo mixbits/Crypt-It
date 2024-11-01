@@ -1,7 +1,7 @@
 # Crypt-It
-================
 
-A Simple AES-CBC Encryption Tool for Files
+
+A simple AES-CBC encryption tool for files
 
 ### Table of Contents
 
