@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 This will install all necessary dependencies for running the program.
 
-Usage
+##Usage
 Encryption
 To encrypt a file using Crypt-It, simply run the following command:
 
@@ -30,9 +30,9 @@ Replace <input_file> with the path to the file you want to encrypt. You will be 
 
 Example:
 
-$ python crypt_it.py -e example.txt
-Enter encryption password: mysecretpassword
-Confirm encryption password: mysecretpassword
+$ python crypt_it.py -e [yourfile].doc
+Enter encryption password: [yourpassword]
+Confirm encryption password: [yourpassword]
 
 File encrypted and saved to example.txt.enc
 
@@ -48,7 +48,7 @@ Replace <input_file> with the path to the .enc file you want to decrypt. You wil
 Example:
 
 $ python crypt_it.py -d example.txt.enc
-Enter decryption password: mysecretpassword
+Enter decryption password:[yourpassword]
 
 File decrypted and saved to example.txt
 
