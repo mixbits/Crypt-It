@@ -25,7 +25,7 @@ This will install all necessary dependencies for running the program.
 ###  Encryption
 To encrypt a file using Crypt-It, simply run the following command:
 
-```python crypt_it.py -e [input_file]```
+```python crypt-it.py -e [input_file]```
 
 Replace [input_file] with the path to the file you want to encrypt. You will be prompted to enter an encryption password and confirm it.
 
@@ -50,7 +50,7 @@ Replace [input_file] with the path to the .enc file you want to decrypt. You wil
 
 ####    Example:
 
-```$ python crypt_it.py -d example.doc.enc
+```$ python crypt-it.py -d example.doc.enc
 Enter decryption password:[yourpassword]
 ```
 
